@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+}
+
+.list,
+.detail {
+  flex: 1;
+  padding: 1em;
+}
+
+.detail {
+  background: #ddd;
+}
